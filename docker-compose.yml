@@ -1,0 +1,35 @@
+version: '3'
+services: 
+  joomlaos:
+    image: joomla:latest
+    environment:
+     JOOMLA_DB_HOST: dbos
+     JOOMLA_DB_USER: anant
+     JOOMLA_DB_PASSWORD: redhat
+     JOOMLA_DB_NAME: mydb
+    restart: always
+    volumes: 
+     - jm_str:/var/www/html    
+    links: 
+     - "dbos"
+    ports: 
+     - "8085:80"
+
+
+  dbos:
+    image: mysql:5.7
+    environment:
+     MYSQL_ROOT_PASSWORD: rootpasswd
+     MYSQL_USER: anant
+     MYSQL_PASSWORD: redhat
+     MYSQL_DATABASE: mydb
+    restart: always
+    volumes:
+     - mysql_str:/var/lib/mysql
+ 
+  
+
+volumes:
+    jm_str:
+    mysql_str:
+
