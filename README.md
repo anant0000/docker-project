@@ -1,7 +1,7 @@
 # Docker-project
 
-## Introduction
-               Docker is a containersation tool helps us setup different types of environments depending upon requirement.It was launched in 2013 by Solomon Hykes and made a revolutionary changes inn industry as it works on O.S level virtualisation.
+## Introduction 
+fDocker is a containersation tool helps us setup different types of environments depending upon requirement.It was launched in 2013 by Solomon Hykes and made a revolutionary changes inn industry as it works on O.S level virtualisation.
                 
 ## Preinstallation setup
                        We are using Rhel 8 as docker-host and docker will be sharing Kernel and some libraries from this host only.You can go for other docker-host too as per your choice.
@@ -17,7 +17,7 @@
                  ""Docker run -it -v /mydockerhostvolume:/var/www/html
                  
  ##Docker Network
-                   Most secure  OS is that which is completely isolated  from outside world but 
+                   Most secure  OS is fthat which is completely isolated  from outside world but 
 ¥ It will launch multi-tier infrastructure for you in which Jhoomla is using Mysql database.
 
 -What happen to your data if your container fail? 
