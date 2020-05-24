@@ -16,20 +16,4 @@ This is one of the things where new learners stucks because of not having deep-d
 With just one command you can download your container but firstly  you have to download a image of OS you want to work on from docker hub that too is too easy.(Eg. being Centos:7 from docker-hub).
 
 ## Docker-Image
-As seen above we can download image from docker-hub ,we  can also create our own image by customising our older downloaded image .eg we can create our own webserver image and further it can be used by anyone .
-
-##Docker Volume
-               There is  a big myth that data inside container is not permanent .It is true only if you do not have core Docker knowledge .We have to mount some directory from our docker-host to make our data permanent.We can do this by :
-                 ""Docker run -it -v /mydockerhostvolume:/var/www/html
-                 
- ##Docker Network
-                   Most secure  OS is fthat which is completely isolated  from outside world but 
-¥ It will launch multi-tier infrastructure for you in which Jhoomla is using Mysql database.
-
--What happen to your data if your container fail? 
-¥Our data is Persistent Permanent so we can launch our new architecture with just one click without losing any data. 
-
-
--What else you can do with similar file
-¥ We can launch our WordPress site with mysql database
-
+As seen above we can download image from docker-hub ,we  can also create our own image by customising our older downloaded image .eg we can create our own webserver image and further it can be used to launch 1000s of containers. 
