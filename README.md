@@ -3,10 +3,10 @@
 ## Introduction
                Docker is a containersation tool helps us setup different types of environments depending upon requirement.It was launched in 2013 by Solomon Hykes and made a revolutionary changes inn industry as it works on O.S level virtualisation.
                 
-##Preinstallation setup
+## Preinstallation setup
                        We are using Rhel 8 as docker-host and docker will be sharing Kernel and some libraries from this host only.You can go for other docker-host too as per your choice.
                   
- ##Install
+ ## Install
           For Professionals there is licence available to download but for student we have a trick
 
 ##Docker-service
