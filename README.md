@@ -25,4 +25,32 @@ This project is very helpful when it comes to launching complete infrastructure 
 I am using Docker-compose to create this project so you have to first download it .For this just go internet ,find docker-compose download > First link > linux > copy both the links in your OS and you are ready to use your docker-compose.Now make a workspace for better management of code .Inside workspace you can download this file which is ready to use .                                 
 
 ### Code description:
-Our data is permanent as we have mounted our data to docker-host.It will download image from internet itself so we may require internet .
+
+#### Version
+There are several version of docker-compose so we have to tell which version we are using.
+
+#### Service:
+We are launching containers technically they are known as service so we are using resp. keyword.
+
+#### Enviromental variables 
+At the time of launching container from mysql image we have to provide some environmental variables ,these are listed after "enviroment" keyword 
+#### Volume
+We want our data to be permanent so we we have mounted a directory from docker-host.We are creating the volume in our Docker-host by "Volume" at last .
+
+#### Link
+We are linking databasse OS to store our data there by keyword "Link".
+
+#### Port 
+Like every server this server will also run on some port .We can run it on any free port upto 65536 . I am running it on port 8085.
+
+### How to run this code :
+Go to your workspace where you have downloaded this code ,file should be named as docker-compose.yml only and can be run by  docker-compose up command you can check your infrastructure by following ways:
+1)Run docker ps -a command in your docker-host or 
+2)Go to browser type your IP:PORT.No. you will get your Jhoomla site 
+
+### How to stop your Infrastructure:
+You can do so by doing R.ctrl+C on your Docker-host
+
+I think that will be sufficient explanation of code .
+
+## I would like to thanks Mr. Vimal Daga Sir for his wonderful guidance and to teach several other importance core concepts of docker in his training .e
