@@ -51,6 +51,6 @@ Go to your workspace where you have downloaded this code ,file should be named a
 ### How to stop your Infrastructure:
 You can do so by doing R.ctrl+C on your Docker-host
 
-I think that will be sufficient explanation of code .
+## For any help feel free to DM me on my LinkedIn profile 
 
-## I would like to thanks Mr. Vimal Daga Sir for his wonderful guidance and to teach several other importance core concepts of docker in his training .e
+## I would like to thanks Mr. Vimal Daga Sir for his wonderful guidance and to teach several other importance core concepts of docker in his training.
